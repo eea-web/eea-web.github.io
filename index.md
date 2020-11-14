@@ -3,181 +3,85 @@ layout:     page
 title:
 permalink:  /
 ---
+<a name="/about"></a>
 
-<div class="row">
-    <div class="col-sm-6 col-xs-12">
-        <img src="/img/cover2.jpg">
-    </div>
-    <div class="col-sm-6 col-xs-12" style="margin-bottom: 0;">
-        Research Scientist<br>
-        Facebook AI Research<br>
-        abhshkdz at fb dot com
-    </div>
-</div>
-<hr>
+# About
 
-<a name="/news"></a>
-
-# News
-
-- [Nov 2019] Organizing the [Visual Question Answering and Dialog workshop at CVPR 2020][51].
-- [Sep 2019] Organizing the [Visually-Grounded Interaction & Language Workshop at NeurIPS][vigil19].
-- [Jun 2019] Presenting [Targeted Multi-Agent Communication](#/multi-agent-comm) as an oral at ICML 2019 ([Video][tarmac-icml-talk]).
-- [Mar 2019] Co-founded [Caliper][caliper]. Caliper helps recruiters evaluate practical AI skills.
-- [Feb 2019] My work was featured in this [wonderful article by Georgia Tech][ic-gt-article].
-- [Jan 2019] Awarded the [Facebook Graduate Fellowship][fb-fellow-page].
-- [Jan 2019] Awarded the Microsoft Research PhD Fellowship (declined).
-- [Jan 2019] Awarded the NVIDIA Graduate Fellowship (declined).
-- [Jan 2019] Organizing the [2nd Visual Dialog Challenge][visdial-challenge-2]!
-- [Oct 2018] Presenting [Neural Modular Control for Embodied Question Answering](#/eqa-modular) as a spotlight at CoRL 2018 ([Video][58]).
-- [Sep 2018] Presenting [results and analysis of the 1st Visual Dialog Challenge][57] at ECCV 2018.
-- [Jul 2018] Presenting a [tutorial on Connecting Language and Vision to Actions][49] at [ACL 2018][50].
-- [Jun 2018] Organizing the 1st [Visual Dialog Challenge][53]!
-- [Jun 2018] Presenting [Embodied Question Answering](#/embodied-qa) as an oral at CVPR 2018 ([Video][54]).
-- [Jun 2018] Organizing the [VQA Challenge and Visual Dialog Workshop at CVPR 2018][51].
-- [Mar 2018] Speaking on [Embodied Question Answering][40] at [NVIDIA GTC][42] ([Video][52]).
-- [Dec 2017] Awarded the [Adobe Research Fellowship][39]. ([Department's news story][44])
-- [Dec 2017] Awarded the [Snap Inc. Research Fellowship][36]. ([Department's news story][43])
-- [Oct 2017] Presenting our paper on [Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning](#/visdial-rl) as an oral at ICCV 2017 ([Video][37]).
-- [Jul 2017] Speaking about our work on [Visual Dialog](//visualdialog.org) at the [Visual Question Answering Challenge Workshop](http://visualqa.org/workshop.html), CVPR 2017 ([Video][41]).
-- [Jul 2017] Presenting our paper on [Visual Dialog](#/visdial) as a spotlight at CVPR 2017 ([Video][38]).
-
-<div id="read-more-button">
-    <a nohref>Read more</a>
-</div>
-
-<hr>
-
-<a name="/bio"></a>
-
-# Bio
-
- I am a Research Scientist at Facebook AI Research (FAIR).
-Previously, I was a Computer Science PhD student at Georgia Tech, advised by [Dhruv Batra][2],
-and working closely with [Devi Parikh][3].
-
-My research focuses on deep learning
-and its applications in climate change, and in building agents that can <i>see</i> (computer vision),
-<i>think</i> (reasoning/interpretability), <i>talk</i> (language modeling), and
-<i>act</i> (reinforcement learning).
-My CV is available [here][33].
+I am a Research Fellow at [The Wadhwani Institute for Artificial Intelligence][wiai], an independent and nonprofit research institute,
+developing AI solutions for social good. Before this, I was an Electrical Engineering undergraduate student at IIT Kanpur
+and worked very closely with [Vinay Namboodiri][vinay]. 
 
 <div class="row" id="timeline-logos">
-    <div class="col-xs-3">
+    <div class="col-xs-4">
         <div class="logo-wrap">
             <span class="helper"></span>
-            <a href="//iitr.ac.in"><img src="/img/logos/iitr.jpg"></a>
+            <a href="//www.iitk.ac.in/"><img src="/img/logos/iitk.png"></a>
         </div>
         <div class="logo-desc">
-            IIT Roorkee<br>
-            2011 - 2015
+            B.Tech, Electrical Engineering <br> IIT Kanpur<br>
+            2016 - 2020
         </div>
     </div>
-    <div class="col-xs-3">
+    <div class="col-xs-4">
         <div class="logo-wrap">
             <span class="helper"></span>
-            <a href="//qbi.uq.edu.au"><img style="width:120px;" src="/img/logos/uq.png"></a>
+            <a href="//summerofcode.withgoogle.com/"><img src="/img/logos/gsoc.png"></a>
         </div>
         <div class="logo-desc">
-            Queensland Brain Institute<br>
-            Summer 2015
+            Student<br>
+            Google Summer of Code<br>
+            Summer 2018
         </div>
     </div>
-    <div class="col-xs-3">
+    <div class="col-xs-4">
         <div class="logo-wrap">
             <span class="helper"></span>
-            <a href="//vt.edu"><img src="/img/logos/vt.png"></a>
+            <a href="//www.ntu.edu.sg/Pages/home.aspx"><img src="/img/logos/ntu.png"></a>
         </div>
         <div class="logo-desc">
-            Virginia Tech<br>
-            2015 - 2016
-        </div>
-    </div>
-    <div class="col-xs-2">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="//gatech.edu"><img src="/img/logos/gatech.png"></a>
-        </div>
-        <div class="logo-desc">
-            Georgia Tech<br>
-            2017 - 2020
-        </div>
-    </div>
-    <div class="col-xs-3">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="//research.fb.com/category/facebook-ai-research/"><img style="width:160px;" src="/img/logos/fair3.png"></a>
-        </div>
-        <div class="logo-desc">
-            Facebook AI Research<br>
-            S2017, W2018, S2018
-        </div>
-    </div>
-    <div class="col-xs-3">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="//deepmind.com"><img style="width:120px;" src="/img/logos/deepmind.png"></a>
-        </div>
-        <div class="logo-desc">
-            DeepMind<br>
-            Winter 2019
-        </div>
-    </div>
-    <div class="col-xs-3">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="//www.tesla.com/autopilotAI"><img style="width:120px;" src="/img/logos/tesla.jpg"></a>
-        </div>
-        <div class="logo-desc">
-            Tesla Autopilot<br>
+            Research Intern<br>
+            NTU Singapore<br>
             Summer 2019
         </div>
     </div>
-    <div class="col-xs-3">
+    <div class="col-xs-4">
         <div class="logo-wrap">
             <span class="helper"></span>
-            <a target="_blank" href="//research.fb.com/category/facebook-ai-research/"><img style="width:160px;" src="/img/logos/fair3.png"></a>
+            <a href="//cloudcv.org/"><img src="/img/logos/cloudv.png"></a>
         </div>
         <div class="logo-desc">
-            Facebook AI Research<br>
+            Mentor<br>
+            Google Summer of Code<br>
+            Summer 2019, 2020
+        </div>
+    </div>
+    <div class="col-xs-4">
+        <div class="logo-wrap">
+            <span class="helper"></span>
+            <a href="//vt.edu"><img  src="/img/logos/wiai2.jpg"></a>
+        </div>
+        <div class="logo-desc">
+            Research Intern<br>
+            Wadhwani AI<br>
+            Summer 2020
+        </div>
+    </div>
+    <div class="col-xs-4">
+        <div class="logo-wrap">
+            <span class="helper"></span>
+            <a href="//vt.edu"><img src="/img/logos/wiai2.jpg"></a>
+        </div>
+        <div class="logo-desc">
+            Research Fellow<br>
+            Wadhwani AI<br>
             Present
         </div>
     </div>
 </div>
 
-During my PhD, I've spent three wonderful semesters as an intern at Facebook AI
-Research — Summer 2017 and Spring 2018 at Menlo Park, working with [Georgia Gkioxari][46],
-[Devi Parikh][47] and [Dhruv Batra][48] on training embodied agents for navigation and
-question-answering in simulated environments (see [embodiedqa.org][40]), and Summer
-2018 at Montréal, working with [Mike Rabbat][55] and [Joelle Pineau][56] on
-communication protocols in large-scale multi-agent reinforcement learning.
-
-In 2019, I was fortunate to get the opportunity to spend time at DeepMind in London
-working on grounded language learning with [Felix Hill][felix-hill], [Laura Rimell][laura-rimell],
-and [Stephen Clark][stephen-clark], and at Tesla Autopilot in Palo Alto working on
-differentiable neural architecture search with [Andrej Karpathy][andrej-karpathy].
-
-My PhD research was supported by fellowships from [Facebook][fb-fellow-page],
-[Adobe][39], and [Snap][36].
-
-Prior to joining grad school, I worked on neural coding in zebrafish tectum
-as an intern under [Prof. Geoffrey Goodhill][4] and [Lilach Avitan][5]
-at the [Goodhill Lab][6], Queensland Brain Institute.
-
-I graduated from [Indian Institute of Technology Roorkee][31] in 2015.
-During my undergrad years, I've been selected twice for
-Google Summer of Code ([2013][8] and [2014][9]),
-won several hackathons and security contests ([Yahoo! HackU!][10],
-[Microsoft Code.Fun.Do.][11], Deloitte CCTC [2013][12] and [2014][13]),
-and been an active member of [SDSLabs][16].
-
-On the side, I maintain [aideadlin.es][34] (countdowns to a bunch of CV/NLP/ML/AI conference deadlines),
-and built [neural-vqa][19], an efficient Torch implementation for visual question answering (and its extension [neural-vqa-attention][35]),
-and several other side projects ([HackFlowy][20], [graf][21], [etc][22]).
-I also help maintain [Erdős][17], a competitive math learning platform I created during my undergrad.
-I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conquerearth] on [Instagram][24] and [Tumblr][25].
-
-[Blog posts from a previous life.](/archive)
+I'm interested in doing research in computer vision, machine learning. 3D
+ and embodied visual recognition, representation learning, and interpretability excite me
+ the most.
 
 ---
 
@@ -185,523 +89,46 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
 
 # Publications
 
-<a name="/ocp-dataset"></a>
-<h2 class="pubt">The Open Catalyst 2020 (OC20) Dataset and Community Challenges</h2>
+<a name="/mhd"></a>
+<h2 class="pubt">Multimodal Humor Dataset: Predicting Laughter tracks for Sitcoms</h2>
 <p class="pubd">
-    <span class="authors">Lowik Chanussot<sup>*</sup>, Abhishek Das<sup>*</sup>, Siddharth Goyal<sup>*</sup>, Thibaut Lavril<sup>*</sup>, Muhammed Shuaibi<sup>*</sup>, Morgane Riviére, Kevin Tran, Javier Heras-Domingo, Caleb Ho, Weihua Hu, Aini Palizhati, Anuroop Sriram, Brandon Wood, Junwoong Yoon, Devi Parikh, C. Lawrence Zitnick, Zachary Ulissi</span><br>
+    <span class="authors">Badri N. Patro<sup>*</sup>, Mayank Lunayach<sup>*</sup>, Deepankar Srivastava, Sarvesh, Hunar Singh, Vinay P. Namboodiri</span><br>
+    <span><sup>*</sup> equal contribution</span>
+    <br>
+    <span class="conf">WACV 2021</span><br>
     <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/2010.09990">Paper</a>
-        <a target="_blank" href="https://github.com/open-catalyst-project/ocp">Code</a>
-        <a target="_blank" href="https://opencatalystproject.org/">opencatalystproject.org</a>
+        <a target="_blank">arXiv (coming soon)</a>
     </span>
 </p>
-<img src="/img/ocp/dataset.png">
+<img src="/img/mhd/mhd2.png">
 <hr>
 
-<a name="/ocp-whitepaper"></a>
-<h2 class="pubt">An Introduction to Electrocatalyst Design using Machine Learning for Renewable Energy Storage</h2>
+<a name="/ucam-tip"></a>
+<h2 class="pubt">Uncertainty-CAM: Visual Explanation using Uncertainty based Class Activation Maps</h2>
 <p class="pubd">
-    <span class="authors">C. Lawrence Zitnick, Lowik Chanussot, Abhishek Das, Siddharth Goyal, Javier Heras-Domingo, Caleb Ho, Weihua Hu, Thibaut Lavril, Aini Palizhati, Morgane Riviére, Muhammed Shuaibi, Anuroop Sriram, Kevin Tran, Brandon Wood, Junwoong Yoon, Devi Parikh, Zachary Ulissi</span><br>
+    <span class="authors">Badri N. Patro, Mayank Lunayach, Vinay P. Namboodiri</span><br>
+    <span class="conf">IEEE Transactions on Image Processing 2020</span><br>
     <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/2010.09435">Paper</a>
-        <a target="_blank" href="https://opencatalystproject.org/">opencatalystproject.org</a>
+        <a target="_blank">Journal link coming soon</a>
     </span>
     <br>
 </p>
-<video autoplay loop src="/img/ocp/relaxation.mp4" width="95%"></video>
+<img src="/img/ucam-tip/ucam_tip.png">
 <hr>
 
-<a name="/habitat-pointnav-aux"></a>
-<h2 class="pubt">Auxiliary Tasks Speed Up Learning PointGoal Navigation</h2>
+<a name="/ucam-iccv"></a>
+<h2 class="pubt">U-CAM: Visual Explanation using Uncertainty based Class Activation Maps</h2>
 <p class="pubd">
-    <span class="authors">Joel Ye, Dhruv Batra, Erik Wijmans*, Abhishek Das*</span><br>
-    <span class="conf">CoRL 2020</span><br>
+    <span class="authors">Badri N. Patro, Mayank Lunayach, Shivansh Patel, Vinay P. Namboodiri</span><br>
+    <span class="conf">ICCV 2019</span><br>
     <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/2007.04561">Paper</a>
-        <a target="_blank" href="https://github.com/joel99/habitat-pointnav-aux">Code</a>
+        <a target="_blank" href="http://openaccess.thecvf.com/content_ICCV_2019/html/Patro_U-CAM_Visual_Explanation_Using_Uncertainty_Based_Class_Activation_Maps_ICCV_2019_paper.html">Paper</a>
+        <a target="_blank" href="https://github.com/DelTA-Lab-IITK/U-CAM">Code</a>
+        <a target="_blank" href="https://delta-lab-iitk.github.io/U-CAM/">Project</a>
     </span>
 </p>
-<img src="/img/habitat/habitat-pointnav-aux.jpg">
-<hr>
+<img style="opacity: 1" src="/img/ucam-iccv/ucam_iccv1.png">
 
-<a name="/visdial-bert"></a>
-<h2 class="pubt">Large-scale Pretraining for Visual Dialog: A Simple State-of-the-Art Baseline</h2>
-<p class="pubd">
-    <span class="authors">Vishvak Murahari, Dhruv Batra, Devi Parikh, Abhishek Das</span><br>
-    <span class="conf">ECCV 2020</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/1912.02379">Paper</a>
-        <a target="_blank" href="https://github.com/vmurahari3/visdial-bert">Code</a>
-    </span>
-</p>
-<img src="/img/visdial/visdial-bert.jpg">
-<hr>
-
-<a name="/qa-probing"></a>
-<h2 class="pubt">Probing Emergent Semantics in Predictive Agents via Question Answering</h2>
-<p class="pubd">
-    <span class="authors">Abhishek Das<sup>*</sup>, Federico Carnevale<sup>*</sup>,
-        Hamza Merzic, Laura Rimell, Rosalia Schneider, Josh Abramson, Alden Hung,
-        Arun Ahuja, Stephen Clark, Gregory Wayne, Felix Hill
-    </span><br>
-    <span class="conf">ICML 2020</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/2006.01016">Paper</a>
-        <a target="_blank" href="https://slideslive.com/38928261/probing-emergent-semantics-in-predictive-agents-via-question-answering">Presentation video</a>
-        <a target="_blank" href="https://docs.google.com/presentation/d/1yjfu2YBLTwJZXG4IiBiws4Z0EIts4X0J5DrYmYpBQ0A/edit?usp=sharing">Slides</a>
-    </span>
-</p>
-<img src="/img/qa-probing/qa-probing-teaser.jpg">
-<hr>
-
-<a name="/dancing-agents"></a>
-<h2 class="pubt">Feel The Music: Automatically Generating A Dance For An Input Song</h2>
-<p class="pubd">
-    <span class="authors">Purva Tendulkar, Abhishek Das, Aniruddha Kembhavi, Devi Parikh</span><br>
-    <span class="conf">ICCC 2020</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/2006.11905">Paper</a>
-        <a target="_blank" href="https://github.com/purvaten/feel-the-music">Code</a>
-        <a target="_blank" href="https://sites.google.com/view/dancing-agents">Videos</a>
-    </span>
-</p>
-<img src="/img/dancing-agents/dancing-agents-teaser.jpg">
-<hr>
-
-<a name="/ds-vic"></a>
-<h2 class="pubt">IR-VIC: Unsupervised Discovery of Sub-goals for Transfer in RL</h2>
-<p class="pubd">
-    <span class="authors">Nirbhay Modhe, Prithvijit Chattopadhyay, Mohit Sharma, Abhishek Das, Devi Parikh, Dhruv Batra, Ramakrishna Vedantam</span><br>
-    <span class="conf">IJCAI-PRICAI 2020, ICLR 2019 Task-Agnostic RL Workshop</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/1907.10580">Paper</a>
-    </span>
-</p>
-<img src="/img/ds-vic/teaser.jpg">
-<hr>
-
-<a name="/visdial-rl-plus-plus"></a>
-<h2 class="pubt">Improving Generative Visual Dialog by Answering Diverse Questions</h2>
-<p class="pubd">
-    <span class="authors">Vishvak Murahari, Prithvijit Chattopadhyay, Dhruv Batra, Devi Parikh, Abhishek Das</span><br>
-    <span class="conf">EMNLP 2019</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/1909.10470">Paper</a>
-        <a target="_blank" href="https://github.com/vmurahari3/visdial-diversity">Code</a>
-    </span>
-</p>
-<img src="/img/visdial/visdial-rl-plus-plus.png">
-<hr>
-
-<a name="/multi-agent-comm"></a>
-<h2 class="pubt">TarMAC: Targeted Multi-Agent Communication</h2>
-<p class="pubd">
-    <span class="authors">Abhishek Das, Théophile Gervet, Joshua Romoff, Dhruv Batra, Devi Parikh, Michael Rabbat, Joelle Pineau</span><br>
-    <span class="conf">ICML 2019</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/1810.11187">Paper</a>
-        <a target="_blank" href="https://drive.google.com/open?id=1ZjKogiYrqFVuBmad3IzkNW18pvP2QcIG">Slides</a>
-    </span>
-</p>
-<img src="/img/multi-agent-comm/model.jpg">
-<br><br>
-<img src="/img/multi-agent-comm/shapes.gif">
-<hr>
-
-<a name="/eqa-mp3d"></a>
-<h2 class="pubt">Embodied Question Answering in Photorealistic Environments with Point Clouds</h2>
-<p class="pubd">
-    <span class="authors">
-        Erik Wijmans*, Samyak Datta*, Oleksandr Maksymets*, Abhishek Das, Georgia Gkioxari, Stefan Lee, Irfan Essa, Devi Parikh, Dhruv Batra
-    </span><br>
-    <span class="conf">CVPR 2019 (Oral)</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/1904.03461">Paper</a>
-    </span>
-</p>
-<img src="/img/eqa/eqa-mp3d.png">
-<hr>
-
-<a name="/avsd"></a>
-<h2 class="pubt">Audio-Visual Scene-Aware Dialog</h2>
-<p class="pubd">
-    <span class="authors">
-        Huda Alamri, Vincent Cartillier, Abhishek Das,
-        Jue Wang, Stefan Lee, Peter Anderson, Irfan Essa, Devi Parikh,
-        Dhruv Batra, Anoop Cherian, Tim K. Marks, Chiori Hori
-    </span><br>
-    <span class="conf">CVPR 2019</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/1901.09107">Paper</a>
-        <a target="_blank" href="https://github.com/batra-mlp-lab/avsd">Code</a>
-        <a target="_blank" href="http://video-dialog.com/">video-dialog.com</a>
-    </span>
-</p>
-<img src="/img/avsd/avsd.jpg">
-<hr>
-
-<a name="/avsd_icassp"></a>
-<h2 class="pubt">End-to-end Audio Visual Scene-Aware Dialog Using Multimodal Attention-based Video Features</h2>
-<p class="pubd">
-    <span class="authors">
-            Chiori Hori, Huda Alamri, Jue Wang, Gordon Wichern, Takaaki Hori, Anoop Cherian, Tim K. Marks, Vincent Cartillier, Raphael Lopes, Abhishek Das, Irfan Essa, Dhruv Batra, Devi Parikh
-    </span><br>
-    <span class="conf">ICASSP 2019</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/1806.08409">Paper</a>
-        <a target="_blank" href="http://video-dialog.com/">video-dialog.com</a>
-    </span>
-</p>
-<img src="/img/avsd/avsd_icassp.jpg">
-<hr>
-
-<a name="/eqa-modular"></a>
-<h2 class="pubt">Neural Modular Control for Embodied Question Answering</h2>
-<p class="pubd">
-    <span class="authors">Abhishek Das, Georgia Gkioxari, Stefan Lee, Devi Parikh, Dhruv Batra</span><br>
-    <span class="conf">CoRL 2018 (Spotlight)</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/1810.11181">Paper</a>
-        <a target="_blank" href="https://embodiedqa.org/">embodiedqa.org</a>
-        <a target="_blank" href="https://www.youtube.com/watch?v=xoHvho-YRgs&t=7330">Presentation video</a>
-        <a target="_blank" href="https://drive.google.com/open?id=1xTvgpVNxG7MPZQe6jtXuYUIT2WPtoh0U">Slides</a>
-    </span>
-</p>
-
-<img src="/img/eqa/eqa-modular.png">
-
-<hr>
-<a name="/embodied-qa"></a>
-<h2 class="pubt">Embodied Question Answering</h2>
-<p class="pubd">
-    <span class="authors">Abhishek Das, Samyak Datta, Georgia Gkioxari, Stefan Lee, Devi Parikh, Dhruv Batra</span><br>
-    <span class="conf">CVPR 2018 (Oral)</span><br>
-    <span class="links">
-        <a target="_blank" href="https://embodiedqa.org/paper.pdf">Paper</a>
-        <a target="_blank" href="https://embodiedqa.org/">embodiedqa.org</a>
-        <a target="_blank" href="https://github.com/facebookresearch/EmbodiedQA">Code</a>
-        <a target="_blank" href="//youtu.be/gz2VoDrvX-A?t=1h19m58s">Presentation video</a>
-        <a target="_blank" href="https://drive.google.com/open?id=1UacybW4p_8PDPNUvnEl05_89tbeG0ItP">Slides</a>
-    </span>
-    <!-- Press: -->
-    <div class="row pressdiv" style="margin: 5px 0 0 0; line-height: 1.4em;">
-        <a style="border-bottom: 0;" target="_blank" href="https://mlatgt.blog/2018/02/26/embodied-question-answering/">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
-                <img src="/img/logos/mlgt.png" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"Embodied Question Answering" by Abhishek Das</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="https://code.facebook.com/posts/1622140391226436/">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
-                <img src="/img/logos/fair2.png" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"... a goal-driven approach to autonomous agents" by Dhruv Batra, Devi Parikh</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="https://www.technologyreview.com/s/611040/facebook-helped-create-an-ai-scavenger-hunt-that-could-lead-to-the-first-useful-home-robots/">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 3px 0;">
-                <img src="/img/logos/mittechreview.svg" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"... an AI scavenger hunt that could lead to the first useful home robots" by Will Knight</span>
-            </div>
-        </a>
-    </div>
-</p>
-
-<img src="/img/eqa/teaser.jpg">
-
-<hr>
-<h2 class="pubt">Evaluating Visual Conversational Agents via Cooperative Human-AI Games</h2>
-<p class="pubd">
-    <span class="authors">Prithvijit Chattopadhyay<sup>*</sup>, Deshraj Yadav<sup>*</sup>, Viraj Prabhu, Arjun Chandrasekaran, Abhishek Das, Stefan Lee, Dhruv Batra, Devi Parikh</span><br>
-    <span class="conf">HCOMP 2017</span><br>
-    <span class="links">
-        <a target="_blank" href="//arxiv.org/abs/1708.05122">Paper</a>
-        <a target="_blank" href="//github.com/VT-vision-lab/guesswhich">Code</a>
-    </span>
-</p>
-
-<img src="/img/guesswhich/teaser.jpg">
-
-<a name="/visdial-rl"></a>
-
-<hr>
-<h2 class="pubt">Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning</h2>
-<p class="pubd">
-    <span class="authors">Abhishek Das<sup>*</sup>, Satwik Kottur<sup>*</sup>, Stefan Lee, José M.F. Moura, Dhruv Batra</span><br>
-    <span class="conf">ICCV 2017 (Oral)</span><br>
-    <span class="links">
-        <a target="_blank" href="//arxiv.org/abs/1703.06585">Paper</a>
-        <a target="_blank" href="//github.com/batra-mlp-lab/visdial-rl">Code</a>
-        <a target="_blank" href="//www.youtube.com/watch?v=R4hugGnNr7s">Presentation video</a>
-        <a target="_blank" href="https://drive.google.com/open?id=0B70NAN5i4ZHSaVBESEFHQW9vUk0">Slides</a>
-    </span>
-</p>
-
-<img src="/img/visdial/qbot_abot.jpg">
-
-<hr>
-<h2 class="pubt">Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization</h2>
-<p class="pubd">
-    <span class="authors">Ramprasaath R. Selvaraju, Michael Cogswell, Abhishek Das, Ramakrishna Vedantam, Devi Parikh, Dhruv Batra</span><br>
-    <span class="conf">IJCV 2019, ICCV 2017, NIPS 2016 Interpretable ML for Complex Systems Workshop</span><br>
-    <span class="links">
-        <a target="_blank" href="//arxiv.org/abs/1610.02391">Paper</a>
-        <a target="_blank" href="https://github.com/ramprs/grad-cam">Code</a>
-        <a target="_blank" href="http://gradcam.cloudcv.org/">Demo</a>
-    </span>
-</p>
-
-<img src="/img/grad-cam/teaser.png">
-
-<a name="/visdial"></a>
-
-<hr>
-<h2 class="pubt">Visual Dialog</h2>
-<p class="pubd" style="margin-bottom:20px;">
-    <span class="authors">Abhishek Das, Satwik Kottur, Khushi Gupta, Avi Singh, Deshraj Yadav, José M.F. Moura, Devi Parikh, Dhruv Batra</span><br>
-    <span class="conf">PAMI 2018, CVPR 2017 (Spotlight)</span><br>
-    <span class="links">
-        <a target="_blank" href="//arxiv.org/abs/1611.08669">Paper</a>
-        <a target="_blank" href="//github.com/batra-mlp-lab/visdial">Code</a>
-        <a target="_blank" href="http://visualdialog.org/">visualdialog.org</a>
-        <a target="_blank" href="https://github.com/batra-mlp-lab/visdial-amt-chat">AMT chat interface</a>
-        <a target="_blank" href="http://demo.visualdialog.org">Demo</a>
-        <a target="_blank" href="//www.youtube.com/watch?v=I9OlorMh7wU">Presentation video</a>
-        <a target="_blank" href="https://drive.google.com/open?id=0B70NAN5i4ZHSTWhRTTlMdVVIcFU">Slides</a>
-    </span>
-</p>
-
-<img src="/img/visdial/teaser.png">
-
-<!-- <div id="vimeo-embed">
-    <iframe src="https://player.vimeo.com/video/193092429?byline=0&portrait=0&color=ffffff" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div> -->
-
-<hr>
-<h2 class="pubt">Human Attention in Visual Question Answering: Do Humans and Deep Networks Look at the Same Regions?</h2>
-
-<p class="pubd">
-    <span class="authors">Abhishek Das<sup>*</sup>, Harsh Agrawal<sup>*</sup>, C. Lawrence Zitnick, Devi Parikh, Dhruv Batra</span> <br>
-    <span class="conf">CVIU 2017, EMNLP 2016, ICML 2016 Workshop on Visualization for Deep Learning</span><br>
-    <span class="links">
-        <a target="_blank" href="//arxiv.org/abs/1606.03556">Paper</a>
-        <a target="_blank" href="https://abhishekdas.com/vqa-hat/">Project+Dataset</a>
-        <a target="_blank" href="https://github.com/abhshkdz/neural-vqa-attention">neural-vqa-attention</a>
-    </span>
-    <!-- Press: -->
-    <div class="row pressdiv" style="margin: 5px 0 0 0; line-height: 1.4em;">
-        <a style="border-bottom: 0;" target="_blank" href="http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0; line-height: 1.1em;">
-                <img src="/img/logos/nautilus.png" style="background: white; width: 57px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"Is Artificial Intelligence Permanently Inscrutable?" by Aaron Bornstein</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="http://www.theverge.com/2016/7/12/12158238/first-click-deep-learning-algorithmic-black-boxes">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
-                <img src="/img/logos/theverge.png" style="margin-right: 5px; background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"Deep learning is creating computer systems we don't fully understand" by James Vincent</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="https://www.newscientist.com/article/2095616-robot-eyes-and-humans-fix-on-different-things-to-decode-a-scene/">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
-                <img src="/img/logos/newscientist.jpg" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"Robot eyes and humans fix on different things to decode a scene" by Aviva Rutkin</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="http://www.techradar.com/news/world-of-tech/robots-and-humans-see-the-world-differently-but-we-don-t-know-why-1324165">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
-                <img src="/img/logos/techradar.png" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"Robots and humans see the world differently – but we don't know why" by Duncan Geere</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="https://www.technologyreview.com/s/601819/ai-is-learning-to-see-the-world-but-not-the-way-humans-do/">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 3px 0;">
-                <img src="/img/logos/mittechreview.svg" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"AI Is Learning to See the World—But Not the Way Humans Do" by Jamie Condliffe</span>
-            </div>
-        </a>
-    </div>
-</p><img src="/img/vqa-hat/teaser.jpg">
-<hr>
-
-<a name="/talks"></a>
-
-# Talks
-
-<div class="row">
-    <div class="col-xs-6">
-        <p class="talkd">
-            <img src="/img/talks/visdial_rl_iccv17.jpg">
-        </p>
-    </div>
-    <div class="col-xs-6">
-        <p class="talkd">
-            <img src="/img/talks/embodiedqa_cvpr18_4.jpg">
-        </p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-12">
-        <div class="talkt">
-            <a target="_blank" href="https://slideslive.com/38928261/probing-emergent-semantics-in-predictive-agents-via-question-answering">
-                ICML 2020: Probing Emergent Semantics in Predictive Agents via Question Answering
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="https://slideslive.com/38917625/tarmac-targeted-multiagent-communication">
-                ICML 2019 Imitation, Intent, and Interaction Workshop:
-                Targeted Multi-Agent Communication
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="https://www.facebook.com/icml.imls/videos/444326646299556/">
-                ICML 2019 Oral: Targeted Multi-Agent Communication
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="https://www.youtube.com/watch?v=WxYBp3Xr_Nc">
-                Allen Institute for Artificial Intelligence: "Towards Agents that can See, Talk, and Act"
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="https://www.youtube.com/watch?v=xoHvho-YRgs&t=7330">
-                CoRL 2018 Spotlight: Neural Modular Control for Embodied Question Answering
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="https://youtu.be/gz2VoDrvX-A?t=1h19m58s">
-                CVPR 2018 Oral: Embodied Question Answering
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="http://on-demand.gputechconf.com/gtc/2018/video/S8582/">
-                NVIDIA GTC 2018
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="https://www.youtube.com/watch?v=R4hugGnNr7s">
-                ICCV 2017 Oral: Learning Cooperative Visual Dialog Agents with Deep RL
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="https://youtu.be/KAlGWMJnWyc?t=26m56s">
-                Visual Question Answering Challenge Workshop, CVPR 2017
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="https://www.youtube.com/watch?v=I9OlorMh7wU">
-                CVPR 2017 Spotlight: Visual Dialog
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="http://techtalks.tv/talks/towards-transparent-visual-question-answering-systems/63026/">
-                Visualization for Deep Learning Workshop, ICML 2016
-            </a>
-        </div>
-    </div>
-</div>
-<hr>
-
-<a name="/projects"></a>
-
-# Side projects
-
-<div class="row">
-    <div class="col-sm-12">
-        <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="http://aideadlin.es">aideadlin.es</a></h2>
-        <p class="talkd">
-            aideadlin.es is a webpage to keep track of CV/NLP/ML/AI conference deadlines. It's hosted on GitHub, and countdowns are automatically updated via pull requests to the data file in the repo.
-            <a target="_blank" href="http://aideadlin.es"><img style="margin-top: 10px;" src="/img/projects/ai-deadlines-1547012831.png"></a>
-        </p>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm-12">
-        <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://github.com/abhshkdz/neural-vqa-attention">neural-vqa-attention</a></h2>
-        <p class="talkd">
-            Torch implementation of an attention-based visual question answering model (Yang et al., CVPR16).
-            The model looks at an image, reads a question, and comes up with an answer to the question and a heatmap of where it looked in the image to answer it.
-            Some results <a href="https://computing.ece.vt.edu/~abhshkdz/neural-vqa-attention/figures/">here</a>.
-            <a target="_blank" href="https://github.com/abhshkdz/neural-vqa-attention"><img class="project-img" src="/img/projects/neural-vqa-attention.jpg"></a>
-        </p>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm-12">
-        <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://github.com/abhshkdz/neural-vqa">neural-vqa</a></h2>
-        <p class="talkd">
-            neural-vqa is an efficient, GPU-based Torch implementation of the visual question answering model from the NIPS 2015 paper 'Exploring Models and Data for Image Question Answering' by Ren et al.
-            <a target="_blank" href="https://github.com/abhshkdz/neural-vqa"><img src="/img/projects/neural-vqa.jpg"></a>
-        </p>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm-12">
-        <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://erdos.sdslabs.co">Erdős</a></h2>
-        <p class="talkd">
-            Erdős by <a target="_blank" href="//sdslabs.co">SDSLabs</a> is a competitive math learning platform, similar in spirit to <a href="https://projecteuler.net/">Project Euler</a>, albeit more feature-packed (support for holding competitions, has a social layer) and prettier.
-            <a target="_blank" href="https://erdos.sdslabs.co"><img style="margin-top:10px;" src="/img/projects/erdos.jpg"></a>
-        </p>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm-6">
-        <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://github.com/abhshkdz/graf">graf</a></h2>
-        <p class="talkd">
-            graf plots pretty git contribution bar graphs in the terminal.
-            <code>gem install graf</code> to install.
-            <a target="_blank" href="https://github.com/abhshkdz/graf"><img style="margin-top:10px;" src="/img/projects/graf.gif"></a>
-        </p>
-    </div>
-    <div class="col-sm-6">
-        <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://github.com/abhshkdz/HackFlowy">HackFlowy</a></h2>
-        <p class="talkd">
-            Clone of <a href="//workflowy.com">WorkFlowy.com</a>, a beautiful, list-based note-taking website that has a 500-item monthly limit on the free tier :-(. This project is an open-source clone of WorkFlowy. "Make lists. Not war." :-)
-            <a target="_blank" href="https://github.com/abhshkdz/HackFlowy"><img style="margin-top:40px;" src="/img/projects/hackflowy.png"></a>
-        </p>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm-6">
-        <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://github.com/abhshkdz/AirMaps">AirMaps</a></h2>
-        <p class="talkd">
-            AirMaps was a fun hackathon project that lets users navigate through Google Earth with gestures and speech commands using a Kinect sensor. It was the <a target="_blank" href="https://blog.sdslabs.co/2014/02/code-fun-do">winning entry in Microsoft Code.Fun.Do</a>.
-            <a target="_blank" href="https://github.com/abhshkdz/AirMaps"><img style="margin-top:10px;" src="/img/projects/airmaps.jpg"></a>
-        </p>
-    </div>
-    <div class="col-sm-6">
-        <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://github.com/sdslabs/hackview">HackView</a></h2>
-        <p class="talkd">
-            Another fun hackathon-winning project built during Yahoo! HackU! 2012 that involves webRTC-based P2P video chat, and was faster than any other video chat provider (at the time, before Google launched Hangouts).
-        </p>
-    </div>
-    <div class="col-sm-6">
-        <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://github.com/abhshkdz/8tracks-downloader">8tracks-downloader</a></h2>
-        <p class="talkd">
-            Ugly-looking, but super-effective bash script for downloading entire playlists from 8tracks. (Still works as of 10/2016).
-        </p>
-    </div>
-</div>
 
 <script src="/js/jquery.min.js"></script>
 <script type="text/javascript">
@@ -713,7 +140,8 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
 </script>
 
 ---
-
+[vinay]: https://vinaypn.github.io/
+[wiai]: //www.wadhwaniai.org/
 [1]: //mlp.cc.gatech.edu
 [2]: ///www.cc.gatech.edu/~dbatra/
 [3]: //www.cc.gatech.edu/~parikh/
