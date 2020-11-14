@@ -1,12 +1,8 @@
 ---
 layout:     page
-title:
+title:      About
 permalink:  /
 ---
-<a name="/about"></a>
-
-# About
-
 I am a Research Fellow at [The Wadhwani Institute for Artificial Intelligence][wiai], an independent and nonprofit research institute,
 developing AI solutions for social good. Before this, I was an Electrical Engineering undergraduate student at IIT Kanpur
 and worked very closely with [Vinay Namboodiri][vinay]. 
@@ -79,9 +75,14 @@ and worked very closely with [Vinay Namboodiri][vinay].
     </div>
 </div>
 
-I'm interested in doing research in computer vision, machine learning. 3D
- and embodied visual recognition, representation learning, and interpretability excite me
- the most.
+<div style="font-size: 1.2em">Research interests</div>
+<ul>
+<li>3D perception and understanding</li>
+<li>Embodied visual recognition</li>
+<li>Representation learning</li>
+<li>Interpretable machine learning</li>
+</ul>
+
 
 ---
 
@@ -90,6 +91,11 @@ I'm interested in doing research in computer vision, machine learning. 3D
 # Publications
 
 <a name="/mhd"></a>
+<div class="row">
+<div class="col-xs-4">
+<img src="/img/mhd/mhd2.png">
+</div>
+<div class="col-xs-8">
 <h2 class="pubt">Multimodal Humor Dataset: Predicting Laughter tracks for Sitcoms</h2>
 <p class="pubd">
     <span class="authors">Badri N. Patro<sup>*</sup>, Mayank Lunayach<sup>*</sup>, Deepankar Srivastava, Sarvesh, Hunar Singh, Vinay P. Namboodiri</span><br>
@@ -100,10 +106,19 @@ I'm interested in doing research in computer vision, machine learning. 3D
         <a target="_blank">arXiv (coming soon)</a>
     </span>
 </p>
-<img src="/img/mhd/mhd2.png">
+</div>
+</div>
+
+
+
 <hr>
 
 <a name="/ucam-tip"></a>
+<div class="row">
+<div class="col-xs-4">
+<img src="/img/ucam-tip/ucam_tip.png">
+</div>
+<div class="col-xs-8">
 <h2 class="pubt">Uncertainty-CAM: Visual Explanation using Uncertainty based Class Activation Maps</h2>
 <p class="pubd">
     <span class="authors">Badri N. Patro, Mayank Lunayach, Vinay P. Namboodiri</span><br>
@@ -113,10 +128,17 @@ I'm interested in doing research in computer vision, machine learning. 3D
     </span>
     <br>
 </p>
-<img src="/img/ucam-tip/ucam_tip.png">
+</div>
+</div>
+
 <hr>
 
 <a name="/ucam-iccv"></a>
+<div class="row">
+<div class="col-xs-4">
+<img style="opacity: 1" src="/img/ucam-iccv/ucam_iccv1.png">
+</div>
+<div class="col-xs-8">
 <h2 class="pubt">U-CAM: Visual Explanation using Uncertainty based Class Activation Maps</h2>
 <p class="pubd">
     <span class="authors">Badri N. Patro, Mayank Lunayach, Shivansh Patel, Vinay P. Namboodiri</span><br>
@@ -127,8 +149,8 @@ I'm interested in doing research in computer vision, machine learning. 3D
         <a target="_blank" href="https://delta-lab-iitk.github.io/U-CAM/">Project</a>
     </span>
 </p>
-<img style="opacity: 1" src="/img/ucam-iccv/ucam_iccv1.png">
-
+</div>
+</div>
 
 <script src="/js/jquery.min.js"></script>
 <script type="text/javascript">
