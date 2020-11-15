@@ -16,8 +16,12 @@
         {% endif %}
         <link rel="alternate" type="application/atom+xml" title="{{ site.name }}" href="{{ site.url }}/atom.xml" />
         <!--Open Graph Related Stuff-->
-        <meta property="fb:app_id" content="352541759381558"/>
+        {% if page.title %}{{ site.name }}
         <meta property="og:title" content="{{ page.title }}"/>
+        {% else %}
+        <meta property="og:title" content="{{ site.name }}"/>
+        {% endif %}
+
         <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
         {% if page.excerpt %}
         <meta name='og:description' content='{{ page.excerpt }}'/>
@@ -29,14 +33,16 @@
         <meta property="article:published_time" content='{{ page.date | date: "%Y-%m-%d" }}'/>
         <meta property="article:publisher" content="https://twitter.com/mayank_lunayach"/>
         <meta property="article:author" content="Mayank"/>
+        {% else %}
+        <meta property="og:type" content="website"/>
         {% endif %}
         <meta property="og:site_name" content="{{ site.name }}"/>
         {% if page.logo %}
         <meta property="og:image" content="{{ site.url }}{{ page.logo }}"/>
         <meta property="og:image:url" content="{{ site.url }}{{ page.logo }}"/>
         {% else %}
-        <meta property="og:image" content="https://user-images.githubusercontent.com/21227893/99185592-e06d1e00-2770-11eb-941d-5ec66303a252.jpg"/>
-        <meta property="og:image:url" content="https://user-images.githubusercontent.com/21227893/99185592-e06d1e00-2770-11eb-941d-5ec66303a252.jpg"/>
+        <meta property="og:image" content="https://mayank.lunayach.me/img/pro_comp.jpg"/>
+        <meta property="og:image:url" content="https://mayank.lunayach.me/img/pro_comp.jpg"/>
         {% endif %}
 
         <!--Twitter Card Stuff-->
