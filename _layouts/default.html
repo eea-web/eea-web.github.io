@@ -16,7 +16,7 @@
         {% endif %}
         <link rel="alternate" type="application/atom+xml" title="{{ site.name }}" href="{{ site.url }}/atom.xml" />
         <!--Open Graph Related Stuff-->
-        {% if page.title %}{{ site.name }}
+        {% if page.title %}
         <meta property="og:title" content="{{ page.title }}"/>
         {% else %}
         <meta property="og:title" content="{{ site.name }}"/>
@@ -46,7 +46,7 @@
         {% endif %}
 
         <!--Twitter Card Stuff-->
-        <meta name='twitter:card' content='summary_large_image'/>
+        <meta name='twitter:card' content='summary'/>
         {% if page.title %}
         <meta name='twitter:title' content='{{ page.title }}'/>
         {% else %}
@@ -55,7 +55,7 @@
         {% if page.logo %}
         <meta name='twitter:image' content='{{ site.url }}{{ page.logo }}'/>
         {% else %}
-        <meta name='twitter:image' content='"https://user-images.githubusercontent.com/21227893/99185592-e06d1e00-2770-11eb-941d-5ec66303a252.jpg"'/>
+        <meta name='twitter:image' content='https://mayank.lunayach.me/img/pro_comp.jpg'/>
         {% endif %}
         <meta name='twitter:creator' content='@mayank_lunayach'/>
         <meta name='twitter:site' content='@mayank_lunayach'/>
