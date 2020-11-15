@@ -6,10 +6,10 @@ body {
   color: #333;
 }
 
-body *::selection {
-  background: #1abc9c;
-  color: #fff;
-}
+/*body *::selection {*/
+/*  background: cornflowerblue;*/
+/*  color: #fff;*/
+/*}*/
 
 .container {
   max-width: 730px;

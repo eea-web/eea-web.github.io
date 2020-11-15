@@ -102,9 +102,9 @@ and worked very closely with [Vinay Namboodiri][vinay].
     <span class="authors">Badri N. Patro<sup>*</sup>, Mayank Lunayach<sup>*</sup>, Deepankar Srivastava, Sarvesh, Hunar Singh, Vinay P. Namboodiri</span><br>
     <span><sup>*</sup> equal contribution</span>
     <br>
-    <span class="conf">WACV 2021</span><br>
+    <span class="conf">Winter Conference on Applications of Computer Vision (WACV), 2021</span><br>
     <span class="links">
-        <a target="_blank">arXiv (coming soon)</a>
+        <a target="_blank">Paper link coming soon</a>
     </span>
 </p>
 </div>
@@ -123,7 +123,7 @@ and worked very closely with [Vinay Namboodiri][vinay].
 <h2 class="pubt">Uncertainty-CAM: Visual Explanation using Uncertainty based Class Activation Maps</h2>
 <p class="pubd">
     <span class="authors">Badri N. Patro, Mayank Lunayach, Vinay P. Namboodiri</span><br>
-    <span class="conf">IEEE Transactions on Image Processing 2020</span><br>
+    <span class="conf">IEEE Transactions on Image Processing (TIP), 2020</span><br>
     <span class="links">
         <a target="_blank">Journal link coming soon</a>
     </span>
@@ -143,7 +143,7 @@ and worked very closely with [Vinay Namboodiri][vinay].
 <h2 class="pubt">U-CAM: Visual Explanation using Uncertainty based Class Activation Maps</h2>
 <p class="pubd">
     <span class="authors">Badri N. Patro, Mayank Lunayach, Shivansh Patel, Vinay P. Namboodiri</span><br>
-    <span class="conf">ICCV 2019</span><br>
+    <span class="conf">International Conference on Computer Vision (ICCV), 2019</span><br>
     <span class="links">
         <a target="_blank" href="http://openaccess.thecvf.com/content_ICCV_2019/html/Patro_U-CAM_Visual_Explanation_Using_Uncertainty_Based_Class_Activation_Maps_ICCV_2019_paper.html">Paper</a>
         <a target="_blank" href="https://github.com/DelTA-Lab-IITK/U-CAM">Code</a>
