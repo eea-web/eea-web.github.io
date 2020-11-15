@@ -6,6 +6,85 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta name="author" content="{{ site.author.name }}">
+        <meta name="keywords" content="mayank lunayach, mayank, lunayach, jekyll, hacker, developer, researcher, iit kanpur, wadhwani ai, research fellow, deep learning, computer vision, neural networks, machine learning">
+        {% if page.excerpt %}
+        <meta name="description" content="{{ page.excerpt }}">
+        {% else %}
+        <meta name="description" content="{{ site.description }}">
+        {% endif %}
+        <link rel="alternate" type="application/atom+xml" title="{{ site.name }}" href="{{ site.url }}/atom.xml" />
+        <!--Open Graph Related Stuff-->
+        <meta property="fb:app_id" content="352541759381558"/>
+        <meta property="og:title" content="{{ page.title }}"/>
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+        {% if page.excerpt %}
+        <meta name='og:description' content='{{ page.excerpt }}'/>
+        {% else %}
+        <meta name='og:description' content='{{ site.description }}'/>
+        {% endif %}
+        {% if page.date %}
+        <meta property="og:type" content="article"/>
+        <meta property="article:published_time" content='{{ page.date | date: "%Y-%m-%d" }}'/>
+        <meta property="article:publisher" content="https://twitter.com/mayank_lunayach"/>
+        <meta property="article:author" content="Mayank"/>
+        {% endif %}
+        <meta property="og:site_name" content="{{ site.name }}"/>
+        {% if page.logo %}
+        <meta property="og:image" content="{{ site.url }}{{ page.logo }}"/>
+        <meta property="og:image:url" content="{{ site.url }}{{ page.logo }}"/>
+        {% else %}
+        <meta property="og:image" content="https://user-images.githubusercontent.com/21227893/99185592-e06d1e00-2770-11eb-941d-5ec66303a252.jpg"/>
+        <meta property="og:image:url" content="https://user-images.githubusercontent.com/21227893/99185592-e06d1e00-2770-11eb-941d-5ec66303a252.jpg"/>
+        {% endif %}
+
+        <!--Twitter Card Stuff-->
+        <meta name='twitter:card' content='summary_large_image'/>
+        {% if page.title %}
+        <meta name='twitter:title' content='{{ page.title }}'/>
+        {% else %}
+        <meta name='twitter:title' content='{{ site.name }}'/>
+        {% endif %}
+        {% if page.logo %}
+        <meta name='twitter:image' content='{{ site.url }}{{ page.logo }}'/>
+        {% else %}
+        <meta name='twitter:image' content='"https://user-images.githubusercontent.com/21227893/99185592-e06d1e00-2770-11eb-941d-5ec66303a252.jpg"'/>
+        {% endif %}
+        <meta name='twitter:creator' content='@mayank_lunayach'/>
+        <meta name='twitter:site' content='@mayank_lunayach'/>
+        <meta name='twitter:url' content='{{ site.url }}{{ page.url }}'/>
+        {% if page.excerpt %}
+        <meta name='twitter:description' content='{{ page.excerpt }}'/>
+        {% else %}
+        <meta name='twitter:description' content='{{ site.description }}'/>
+        {% endif %}
+
+        <link rel="apple-touch-icon" sizes="57x57" href="/ico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/ico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/ico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/ico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/ico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/ico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/ico/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/ico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/ico/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/ico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
+        <link rel="manifest" href="/ico/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ico/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+
+
+
+
+        <link rel="me" href="//twitter.com/mayank_lunayach">
+
+
         <link rel="stylesheet" href="/css/bootstrap.min.css">
         <link rel="stylesheet" href="/css/main_1603233531.css">
         <!--[if IE 7]>
@@ -30,6 +109,29 @@
             gtag('js', new Date());
 
             gtag('config', 'G-2ZGSF2Q215');
+        </script>
+
+<!--        Fb analytics-->
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                    appId      : '352541759381558',
+                    cookie     : true,
+                    xfbml      : true,
+                    version    : 'v9.0'
+                });
+
+                FB.AppEvents.logPageView();
+
+            };
+
+            (function(d, s, id){
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {return;}
+                js = d.createElement(s); js.id = id;
+                js.src = "https://connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
         </script>
 
     </head>
@@ -58,7 +160,7 @@
                 <div id="image-separator"></div>
 
                 <div class="row">
-                        <img src="/img/cover4.jpg">
+                        <img src="/img/cover4.jpg" style="border-radius: 10px">
                     </div>
                 <a name="/about"></a>
 

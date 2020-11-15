@@ -1,8 +1,9 @@
 ---
 layout:     page
-title:      About
+title:      
 permalink:  /
 ---
+<h1>About</h1>
 I am a Research Fellow at [The Wadhwani Institute for Artificial Intelligence][wiai], an independent and nonprofit research institute,
 developing AI solutions for social good. Before this, I was an Electrical Engineering undergraduate student at IIT Kanpur
 and worked very closely with [Vinay Namboodiri][vinay]. 
