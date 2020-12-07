@@ -120,7 +120,7 @@ and worked very closely with [Vinay Namboodiri][vinay].
 <img src="/img/ucam-tip/ucam_tip.png">
 </div>
 <div class="col-xs-8">
-<h2 class="pubt">Uncertainty-CAM: Visual Explanation using Uncertainty based Class Activation Maps</h2>
+<h2 class="pubt">Uncertainty Class Activation Map (U-CAM) using Gradient Certainty method</h2>
 <p class="pubd">
     <span class="authors">Badri N. Patro, Mayank Lunayach, Vinay P. Namboodiri</span><br>
     <span class="conf">IEEE Transactions on Image Processing (TIP), 2020</span><br>
