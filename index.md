@@ -76,15 +76,6 @@ and worked very closely with [Vinay Namboodiri][vinay].
     </div>
 </div>
 
-<div style="font-size: 1.2em">Research interests</div>
-<ul>
-<li>3D perception and understanding</li>
-<li>Embodied visual recognition</li>
-<li>Representation learning</li>
-<li>Interpretable machine learning</li>
-</ul>
-
-
 ---
 
 <a name="/publications"></a>
