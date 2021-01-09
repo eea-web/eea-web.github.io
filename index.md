@@ -95,7 +95,7 @@ and worked very closely with [Vinay Namboodiri][vinay].
     <br>
     <span class="conf">Winter Conference on Applications of Computer Vision (WACV), 2021</span><br>
     <span class="links">
-        <a target="_blank">Paper link coming soon</a>
+        <a target="_blank" href="https://openaccess.thecvf.com/content/WACV2021/papers/Patro_Multimodal_Humor_Dataset_Predicting_Laughter_Tracks_for_Sitcoms_WACV_2021_paper.pdf">Paper</a>
     </span>
 </p>
 </div>
