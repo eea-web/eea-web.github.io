@@ -116,7 +116,7 @@ and worked very closely with [Vinay Namboodiri][vinay].
     <span class="authors">Badri N. Patro, Mayank Lunayach, Vinay P. Namboodiri</span><br>
     <span class="conf">IEEE Transactions on Image Processing (TIP), 2020</span><br>
     <span class="links">
-        <a target="_blank">Journal link coming soon</a>
+        <a target="_blank" href="https://ieeexplore.ieee.org/document/9316944">Paper</a>
     </span>
     <br>
 </p>
