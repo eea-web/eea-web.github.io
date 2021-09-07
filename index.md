@@ -4,12 +4,11 @@ title:
 permalink:  /
 ---
 <h1>About</h1>
-I was a Research Fellow at [The Wadhwani Institute for Artificial Intelligence][wiai], an independent and nonprofit research institute,
-developing AI solutions for social good. Before this, I was an Electrical Engineering undergraduate student at IIT Kanpur
-and worked very closely with [Vinay Namboodiri][vinay]. 
+I am a graduate student in Computer Science at Georgia Tech. I am working at the intersection of few-shot and continual learning with [Zsolt Kira][zsolt]. Previously, I was an Associate Machine Learning Scientist at [The Wadhwani Institute for Artificial Intelligence][wiai], an independent and nonprofit research institute,
+developing AI solutions for social good.
 
 <div class="row" id="timeline-logos">
-    <div class="col-xs-4">
+    <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
             <a href="//www.iitk.ac.in/"><img src="/img/logos/iitk.png"></a>
@@ -19,7 +18,7 @@ and worked very closely with [Vinay Namboodiri][vinay].
             2016 - 2020
         </div>
     </div>
-    <div class="col-xs-4">
+    <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
             <a href="//summerofcode.withgoogle.com/"><img src="/img/logos/gsoc.png"></a>
@@ -30,7 +29,7 @@ and worked very closely with [Vinay Namboodiri][vinay].
             Summer 2018
         </div>
     </div>
-    <div class="col-xs-4">
+    <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
             <a href="//www.ntu.edu.sg/Pages/home.aspx"><img src="/img/logos/ntu.png"></a>
@@ -41,7 +40,7 @@ and worked very closely with [Vinay Namboodiri][vinay].
             Summer 2019
         </div>
     </div>
-    <div class="col-xs-4">
+    <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
             <a href="//cloudcv.org/"><img src="/img/logos/cloudv.png"></a>
@@ -52,10 +51,12 @@ and worked very closely with [Vinay Namboodiri][vinay].
             Summer 2019, 2020
         </div>
     </div>
+</div>
+<div class="row" id="timeline-logos">
     <div class="col-xs-4">
         <div class="logo-wrap">
             <span class="helper"></span>
-            <a href="//vt.edu"><img  src="/img/logos/wiai2.jpg"></a>
+            <a href="//wadhwaniai.org/"><img  src="/img/logos/wiai2.jpg"></a>
         </div>
         <div class="logo-desc">
             Research Intern<br>
@@ -66,12 +67,23 @@ and worked very closely with [Vinay Namboodiri][vinay].
     <div class="col-xs-4">
         <div class="logo-wrap">
             <span class="helper"></span>
-            <a href="//vt.edu"><img src="/img/logos/wiai2.jpg"></a>
+            <a href="//wadhwaniai.org/"><img src="/img/logos/wiai2.jpg"></a>
         </div>
         <div class="logo-desc">
             Research Fellow<br>
             Wadhwani AI<br>
-            Present
+            Aug 2020 - July 2021
+        </div>
+    </div>
+    <div class="col-xs-4">
+        <div class="logo-wrap">
+            <span class="helper"></span>
+            <a href="//gatech.edu/"><img src="/img/logos/GTVertical_RGB.png"></a>
+        </div>
+        <div class="logo-desc">
+            MS in Computer Science<br>
+            Georgia Tech<br>
+            Aug 2021 - May 2023
         </div>
     </div>
 </div>
@@ -156,3 +168,4 @@ and worked very closely with [Vinay Namboodiri][vinay].
 ---
 [vinay]: https://vinaypn.github.io/
 [wiai]: //www.wadhwaniai.org/
+[zsolt]: https://www.cc.gatech.edu/~zk15/

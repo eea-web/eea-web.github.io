@@ -1,199 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+<head>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
 
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-        <meta name="author" content="{{ site.author.name }}">
-        <meta name="keywords" content="mayank lunayach, mayank, lunayach, jekyll, hacker, developer, researcher, iit kanpur, wadhwani ai, research fellow, deep learning, computer vision, neural networks, machine learning">
-        {% if page.excerpt %}
-        <meta name="description" content="{{ page.excerpt }}">
-        {% else %}
-        <meta name="description" content="{{ site.description }}">
-        {% endif %}
-        <link rel="alternate" type="application/atom+xml" title="{{ site.name }}" href="{{ site.url }}/atom.xml" />
-        <!--Open Graph Related Stuff-->
-        {% if page.title %}
-        <meta property="og:title" content="{{ page.title }}"/>
-        {% else %}
-        <meta property="og:title" content="{{ site.name }}"/>
-        {% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="keywords"
+          content="mayank lunayach, mayank, lunayach, jekyll, hacker, developer, researcher, iit kanpur, wadhwani ai, research fellow, deep learning, computer vision, neural networks, machine learning">
+    {% if page.excerpt %}
+    <meta name="description" content="{{ page.excerpt }}">
+    {% else %}
+    <meta name="description" content="{{ site.description }}">
+    {% endif %}
+    <link rel="alternate" type="application/atom+xml" title="{{ site.name }}" href="{{ site.url }}/atom.xml"/>
+    <!--Open Graph Related Stuff-->
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }}"/>
+    {% else %}
+    <meta property="og:title" content="{{ site.name }}"/>
+    {% endif %}
 
-        <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
-        {% if page.excerpt %}
-        <meta name='og:description' content='{{ page.excerpt }}'/>
-        {% else %}
-        <meta name='og:description' content='{{ site.description }}'/>
-        {% endif %}
-        {% if page.date %}
-        <meta property="og:type" content="article"/>
-        <meta property="article:published_time" content='{{ page.date | date: "%Y-%m-%d" }}'/>
-        <meta property="article:publisher" content="https://twitter.com/mayank_lunayach"/>
-        <meta property="article:author" content="Mayank"/>
-        {% else %}
-        <meta property="og:type" content="website"/>
-        {% endif %}
-        <meta property="og:site_name" content="{{ site.name }}"/>
-        {% if page.logo %}
-        <meta property="og:image" content="{{ site.url }}{{ page.logo }}"/>
-        <meta property="og:image:url" content="{{ site.url }}{{ page.logo }}"/>
-        {% else %}
-        <meta property="og:image" content="https://mayank.lunayach.me/img/pro_comp.jpg"/>
-        <meta property="og:image:url" content="https://mayank.lunayach.me/img/pro_comp.jpg"/>
-        {% endif %}
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    {% if page.excerpt %}
+    <meta name='og:description' content='{{ page.excerpt }}'/>
+    {% else %}
+    <meta name='og:description' content='{{ site.description }}'/>
+    {% endif %}
+    {% if page.date %}
+    <meta property="og:type" content="article"/>
+    <meta property="article:published_time" content='{{ page.date | date: "%Y-%m-%d" }}'/>
+    <meta property="article:publisher" content="https://twitter.com/mayank_lunayach"/>
+    <meta property="article:author" content="Mayank"/>
+    {% else %}
+    <meta property="og:type" content="website"/>
+    {% endif %}
+    <meta property="og:site_name" content="{{ site.name }}"/>
+    {% if page.logo %}
+    <meta property="og:image" content="{{ site.url }}{{ page.logo }}"/>
+    <meta property="og:image:url" content="{{ site.url }}{{ page.logo }}"/>
+    {% else %}
+    <meta property="og:image" content="https://mayank.lunayach.me/img/pro_comp.jpg"/>
+    <meta property="og:image:url" content="https://mayank.lunayach.me/img/pro_comp.jpg"/>
+    {% endif %}
 
-        <!--Twitter Card Stuff-->
-        <meta name='twitter:card' content='summary'/>
-        {% if page.title %}
-        <meta name='twitter:title' content='{{ page.title }}'/>
-        {% else %}
-        <meta name='twitter:title' content='{{ site.name }}'/>
-        {% endif %}
-        {% if page.logo %}
-        <meta name='twitter:image' content='{{ site.url }}{{ page.logo }}'/>
-        {% else %}
-        <meta name='twitter:image' content='https://mayank.lunayach.me/img/pro_comp.jpg'/>
-        {% endif %}
-        <meta name='twitter:creator' content='@mayank_lunayach'/>
-        <meta name='twitter:site' content='@mayank_lunayach'/>
-        <meta name='twitter:url' content='{{ site.url }}{{ page.url }}'/>
-        {% if page.excerpt %}
-        <meta name='twitter:description' content='{{ page.excerpt }}'/>
-        {% else %}
-        <meta name='twitter:description' content='{{ site.description }}'/>
-        {% endif %}
+    <!--Twitter Card Stuff-->
+    <meta name='twitter:card' content='summary'/>
+    {% if page.title %}
+    <meta name='twitter:title' content='{{ page.title }}'/>
+    {% else %}
+    <meta name='twitter:title' content='{{ site.name }}'/>
+    {% endif %}
+    {% if page.logo %}
+    <meta name='twitter:image' content='{{ site.url }}{{ page.logo }}'/>
+    {% else %}
+    <meta name='twitter:image' content='https://mayank.lunayach.me/img/pro_comp.jpg'/>
+    {% endif %}
+    <meta name='twitter:creator' content='@mayank_lunayach'/>
+    <meta name='twitter:site' content='@mayank_lunayach'/>
+    <meta name='twitter:url' content='{{ site.url }}{{ page.url }}'/>
+    {% if page.excerpt %}
+    <meta name='twitter:description' content='{{ page.excerpt }}'/>
+    {% else %}
+    <meta name='twitter:description' content='{{ site.description }}'/>
+    {% endif %}
 
-        <link rel="apple-touch-icon" sizes="57x57" href="/ico/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/ico/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/ico/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/ico/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/ico/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/ico/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/ico/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/ico/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="/ico/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/ico/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
-        <link rel="manifest" href="/ico/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/ico/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
-
-
-
+    <link rel="apple-touch-icon" sizes="57x57" href="/ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
+    <link rel="manifest" href="/ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
 
-        <link rel="me" href="//twitter.com/mayank_lunayach">
+    <link rel="me" href="//twitter.com/mayank_lunayach">
 
 
-        <link rel="stylesheet" href="/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/css/main_1603233531.css">
-        <!--[if IE 7]>
-            <html class="ie7">
-            <link rel="stylesheet" type="text/css" href="/css/font-awesome-ie7.min.css">
-        <![endif]-->
-        <!--[if IE 8]><html class="ie8"> <![endif]-->
-        <!--[if lt IE 9]>
-          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <!--[if lt IE 9]>
-            <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-        <![endif]-->
-        <script src="https://kit.fontawesome.com/bc32a8c7b6.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main_1603233531.css">
+    <!--[if IE 7]>
+    <html class="ie7">
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome-ie7.min.css">
+    <![endif]-->
+    <!--[if IE 8]>
+    <html class="ie8"> <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <script src="https://kit.fontawesome.com/bc32a8c7b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZGSF2Q215"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZGSF2Q215"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-            gtag('config', 'G-2ZGSF2Q215');
-        </script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-<!--        Fb analytics-->
-        <script>
-            window.fbAsyncInit = function() {
-                FB.init({
-                    appId      : '352541759381558',
-                    cookie     : true,
-                    xfbml      : true,
-                    version    : 'v9.0'
-                });
+        gtag('js', new Date());
 
-                FB.AppEvents.logPageView();
+        gtag('config', 'G-2ZGSF2Q215');
+    </script>
 
-            };
+    <!--        Fb analytics-->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '352541759381558',
+                cookie: true,
+                xfbml: true,
+                version: 'v9.0'
+            });
 
-            (function(d, s, id){
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) {return;}
-                js = d.createElement(s); js.id = id;
-                js.src = "https://connect.facebook.net/en_US/sdk.js";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script>
+            FB.AppEvents.logPageView();
 
-    </head>
-    <body>
-        <!-- Header
-            ================================================== -->
-        <div class="top-strip"></div>
-        <div class="container">
-            <div class="page-header">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <h1 id="name-block"><a href="/">Mayank Lunayach</a></h1>
-                    </div>
-                    <div class="col-xs-6">
-                        <h1 id="my-contacts" style="float: right">
-                            <ul class="nav-bar">
-                                <li><a target="_blank" href="mailto: mayanklunayach@gmail.com"><span style="color: #0072C6"><i class="fas fa-envelope fa-xs"></i></span></a></li>
-                                <li><a target="_blank" href="//twitter.com/mayank_lunayach"><span style="color: #1DA1F2"><i class="fab fa-twitter fa-xs"></i></span></a></li>
-                                <li><a target="_blank" href="//github.com/lunayach"><span style="color: #333;"><i class="fab fa-github fa-xs"></i></span></a></li>
-                                <li><a target="_blank" href="//www.linkedin.com/in/lunayach-mayank/"><span style="color: #2867B2"><i class="fab fa-linkedin fa-xs"></i></span> </a></li>
-                            </ul>
-                        </h1>
-                    </div>
-                </div>
+        };
 
-                <div id="image-separator"></div>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
-                <div class="row">
-                        <img src="/img/cover4.jpg" style="border-radius: 10px">
-                    </div>
-                <a name="/about"></a>
-
-                <div class="col-xs-12">
-                        <hr>
-                        <center>
-                            <ul class="nav-bar">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/#/about">About</a></li>
-                            <li><a href="/cv">CV</a></li>
-                            <li><a href="/#/publications">Publications</a></li>
-                            <li><a target="_blank" href="//scholar.google.com/citations?user=Up0TT1AAAAAJ">Google Scholar</a></li>
-<!--                            <li><a href="/reading-list">Reading List</a></li>-->
-                        </ul>
-                        </center>
-                        <hr>
-                    </div>
+</head>
+<body>
+<!-- Header
+    ================================================== -->
+<div class="top-strip"></div>
+<div class="container">
+    <div class="page-header">
+        <div class="row">
+            <div class="col-xs-6">
+                <h1 id="name-block"><a href="/">Mayank Lunayach</a></h1>
             </div>
-            <div class="page-content">
-                {{ content }}
+            <div class="col-xs-6">
+                <h1 id="my-contacts" style="float: right">
+                    <ul class="nav-bar">
+                        <li><a target="_blank" href="//www.linkedin.com/in/lunayach-mayank/"><span
+                                style="color: #2867B2"><i class="fab fa-linkedin fa-xs"></i></span> </a></li>
+                        <li><a target="_blank" href="//github.com/lunayach"><span style="color: #333;"><i
+                                class="fab fa-github fa-xs"></i></span></a></li>
+                        <li><a target="_blank" href="//twitter.com/mayank_lunayach"><span style="color: #1DA1F2"><i
+                                class="fab fa-twitter fa-xs"></i></span></a></li>
+                    </ul>
+                </h1>
             </div>
-
-            <div style="text-align: center; opacity: 75%">
-                &#169; 2021 Mayank Lunayach <br>
-                <div style="font-size: 0.8em">(Website template modified from <a href="https://abhishekdas.com/" style="text-decoration: none; border-bottom: 1px solid #ccc; color: inherit;">Abhishek Das</a>)</div>
-            </div>
-            <br>
         </div>
-    </body>
+
+        <div id="image-separator"></div>
+
+        <div class="row">
+            <div class="col-xs-5 col-xs-offset-1">
+                <img src="/img/me-only.jpg" style="border-radius: 8px">
+            </div>
+            <div class="col-xs-5" style="position: relative; min-height: 225px;">
+                <div style="position: absolute; bottom: 0; left: 0;">
+                    CS Graduate Student at Georgia Tech
+                    <br>
+                    <div style="font-weight: bolder">lunayach at gatech dot edu</div>
+                    <br>
+                    <div style="color: #9A2617; font-weight: bolder">Actively seeking internships for Summer'22!</div>
+                </div>
+            </div>
+        </div>
+        <a name="/about"></a>
+
+        <div class="col-xs-12">
+            <hr>
+            <center>
+                <ul class="nav-bar">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#/about">About</a></li>
+                    <li><a href="/cv">CV</a></li>
+                    <li><a href="/#/publications">Publications</a></li>
+                    <li><a target="_blank" href="//scholar.google.com/citations?user=Up0TT1AAAAAJ">Google Scholar</a>
+                    </li>
+                    <!--                            <li><a href="/reading-list">Reading List</a></li>-->
+                </ul>
+            </center>
+            <hr>
+        </div>
+    </div>
+    <div class="page-content">
+        {{ content }}
+    </div>
+
+    <div style="text-align: center; opacity: 75%">
+        &#169; 2021 Mayank Lunayach <br>
+        <div style="font-size: 0.8em">(Website template modified from <a href="https://abhishekdas.com/"
+                                                                         style="text-decoration: none; border-bottom: 1px solid #ccc; color: inherit;">Abhishek
+            Das</a>)
+        </div>
+    </div>
+    <br>
+</div>
+</body>
 </html>
