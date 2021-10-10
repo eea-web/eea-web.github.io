@@ -3,7 +3,7 @@ name: Mayank Lunayach
 url: mayank.lunayach.me
 author:
   name: Mayank Lunayach
-  email: mayanklunayach@gmail.com
-description: CS Graduate student at Georgia Tech
+  email:
+description: Mayank Lunayach's website
 permalink: /posts/:title/
 include: ['_pages']
