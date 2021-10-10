@@ -4,7 +4,7 @@ title:
 permalink:  /
 ---
 <h1>About</h1>
-I am a graduate student in Computer Science at Georgia Tech. I am working at the intersection of few-shot and continual learning with [Zsolt Kira][zsolt]. Previously, I was an Associate Machine Learning Scientist at [The Wadhwani Institute for Artificial Intelligence][wiai].
+I am a first year Master's student in Computer Science at Georgia Tech. I am working at the intersection of few-shot and continual learning with [Zsolt Kira][zsolt]. Previously, I was an Associate Machine Learning Scientist at [The Wadhwani Institute for Artificial Intelligence][wiai].<br>
 
 
 <div class="row" id="timeline-logos">
@@ -70,7 +70,7 @@ I am a graduate student in Computer Science at Georgia Tech. I am working at the
             <a href="//wadhwaniai.org/"><img src="/img/logos/wiai2.jpg"></a>
         </div>
         <div class="logo-desc">
-            Research Fellow<br>
+            Assoc. Machine Learning Scientist - 1<br>
             Wadhwani AI<br>
             Aug 2020 - July 2021
         </div>
