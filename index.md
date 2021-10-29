@@ -102,7 +102,7 @@ I am a first year Master's student in Computer Science at Georgia Tech. I am wor
 <div class="col-xs-8">
 <h2 class="pubt">Multimodal Humor Dataset: Predicting Laughter tracks for Sitcoms</h2>
 <p class="pubd">
-    <span class="authors">Badri N. Patro<sup>*</sup>, Mayank Lunayach<sup>*</sup>, Deepankar Srivastava, Sarvesh, Hunar Singh, Vinay P. Namboodiri</span><br>
+    <span class="authors"><b>Mayank Lunayach</b><sup>*</sup>, Badri N. Patro<sup>*</sup>,  Deepankar Srivastava, Sarvesh, Hunar Singh, Vinay P. Namboodiri</span><br>
     <span><sup>*</sup> equal contribution</span>
     <br>
     <span class="conf">Winter Conference on Applications of Computer Vision (WACV), 2021</span><br>
@@ -125,7 +125,7 @@ I am a first year Master's student in Computer Science at Georgia Tech. I am wor
 <div class="col-xs-8">
 <h2 class="pubt">Uncertainty Class Activation Map (U-CAM) using Gradient Certainty method</h2>
 <p class="pubd">
-    <span class="authors">Badri N. Patro, Mayank Lunayach, Vinay P. Namboodiri</span><br>
+    <span class="authors">Badri N. Patro, <b>Mayank Lunayach</b>, Vinay P. Namboodiri</span><br>
     <span class="conf">IEEE Transactions on Image Processing (TIP), 2020</span><br>
     <span class="links">
         <a target="_blank" href="https://ieeexplore.ieee.org/document/9316944">Paper</a>
@@ -145,7 +145,7 @@ I am a first year Master's student in Computer Science at Georgia Tech. I am wor
 <div class="col-xs-8">
 <h2 class="pubt">U-CAM: Visual Explanation using Uncertainty based Class Activation Maps</h2>
 <p class="pubd">
-    <span class="authors">Badri N. Patro, Mayank Lunayach, Shivansh Patel, Vinay P. Namboodiri</span><br>
+    <span class="authors">Badri N. Patro, <b>Mayank Lunayach</b>, Shivansh Patel, Vinay P. Namboodiri</span><br>
     <span class="conf">International Conference on Computer Vision (ICCV), 2019</span><br>
     <span class="links">
         <a target="_blank" href="http://openaccess.thecvf.com/content_ICCV_2019/html/Patro_U-CAM_Visual_Explanation_Using_Uncertainty_Based_Class_Activation_Maps_ICCV_2019_paper.html">Paper</a>
