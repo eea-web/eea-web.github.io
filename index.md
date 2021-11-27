@@ -4,8 +4,7 @@ title:
 permalink:  /
 ---
 <h1>About</h1>
-I am a first year Master's student in Computer Science at Georgia Tech. I am working at the intersection of few-shot and continual learning with [Zsolt Kira][zsolt]. Previously, I was an Associate Machine Learning Scientist at [The Wadhwani Institute for Artificial Intelligence][wiai].<br>
-
+I am a first-year Master's student in Computer Science at Georgia Tech. I am working at the intersection of few-shot and continual learning with [Prof. Zsolt Kira][zsolt]. Previously, I was a Machine Learning Scientist at [The Wadhwani Institute for Artificial Intelligence][wiai], and before that, I worked closely with [Prof. Vinay Namboodiri][vinay] at [IIT Kanpur][iitk] on Vision & Language problems.
 
 <div class="row" id="timeline-logos">
     <div class="col-xs-3">
@@ -169,3 +168,4 @@ I am a first year Master's student in Computer Science at Georgia Tech. I am wor
 [vinay]: https://vinaypn.github.io/
 [wiai]: //www.wadhwaniai.org/
 [zsolt]: https://www.cc.gatech.edu/~zk15/
+[iitk]: https://www.iitk.ac.in/
