@@ -4,7 +4,7 @@ title:
 permalink:  /
 ---
 <h1>About</h1>
-I am a first-year Master's student in Computer Science at Georgia Tech. I am working at the intersection of few-shot and continual learning with [Prof. Zsolt Kira][zsolt]. Previously, I was a Machine Learning Scientist at [The Wadhwani Institute for Artificial Intelligence][wiai], and before that, I worked closely with [Prof. Vinay Namboodiri][vinay] at [IIT Kanpur][iitk] on Vision & Language problems.
+I am a final year Master's student in Computer Science at Georgia Tech. I am working on 3D implicit representations with [Prof. Zsolt Kira][zsolt]. Previously, I was a Machine Learning Scientist at [The Wadhwani Institute for Artificial Intelligence][wiai], and before that, I worked closely with [Prof. Vinay Namboodiri][vinay] at [IIT Kanpur][iitk] on multimodal problems.
 
 <div class="row" id="timeline-logos">
     <div class="col-xs-3">
@@ -13,7 +13,7 @@ I am a first-year Master's student in Computer Science at Georgia Tech. I am wor
             <a href="//www.iitk.ac.in/"><img src="/img/logos/iitk.png"></a>
         </div>
         <div class="logo-desc">
-            B.Tech, Electrical Engineering <br> IIT Kanpur<br>
+            B.Tech, Electrical Eng. <br> IIT Kanpur<br>
             2016 - 2020
         </div>
     </div>
@@ -23,7 +23,7 @@ I am a first-year Master's student in Computer Science at Georgia Tech. I am wor
             <a href="//summerofcode.withgoogle.com/"><img src="/img/logos/gsoc.png"></a>
         </div>
         <div class="logo-desc">
-            Student<br>
+            Open Source Developer<br>
             Google Summer of Code<br>
             Summer 2018
         </div>
@@ -52,7 +52,7 @@ I am a first-year Master's student in Computer Science at Georgia Tech. I am wor
     </div>
 </div>
 <div class="row" id="timeline-logos">
-    <div class="col-xs-4">
+    <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
             <a href="//wadhwaniai.org/"><img  src="/img/logos/wiai2.jpg"></a>
@@ -63,21 +63,32 @@ I am a first-year Master's student in Computer Science at Georgia Tech. I am wor
             Summer 2020
         </div>
     </div>
-    <div class="col-xs-4">
+    <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
             <a href="//wadhwaniai.org/"><img src="/img/logos/wiai2.jpg"></a>
         </div>
         <div class="logo-desc">
-            Assoc. Machine Learning Scientist - 1<br>
+            Machine Learning Scientist<br>
             Wadhwani AI<br>
             Aug 2020 - July 2021
         </div>
     </div>
-    <div class="col-xs-4">
+    <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
-            <a href="//gatech.edu/"><img src="/img/logos/GTVertical_RGB.png"></a>
+            <a href="//gatech.edu/"><img src="/img/logos/Google.svg" style="width: 60%"></a>
+        </div>
+        <div class="logo-desc">
+            Software Engineering Intern<br>
+            Google<br>
+            Summer 2022
+        </div>
+    </div>
+    <div class="col-xs-3">
+        <div class="logo-wrap">
+            <span class="helper"></span>
+            <a href="//gatech.edu/"><img src="/img/logos/Georgia_Tech_logo.svg"></a>
         </div>
         <div class="logo-desc">
             MS in Computer Science<br>
@@ -92,6 +103,28 @@ I am a first-year Master's student in Computer Science at Georgia Tech. I am wor
 <a name="/publications"></a>
 
 # Publications
+<br>
+<a name="/lw"></a>
+<div class="row">
+<div class="col-xs-4">
+<img src="/img/lw/setting.png">
+</div>
+<div class="col-xs-8">
+<h2 class="pubt">Lifelong Wandering: A realistic few-shot online continual learning setting</h2>
+<p class="pubd">
+    <span class="authors"><b>Mayank Lunayach</b>, James Seale Smith, Zsolt Kira</span><br>
+    <span class="conf">Workshop on Continual Learning in Computer Vision, CVPR 2022</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/pdf/2206.07932.pdf">Paper</a>
+    </span>
+</p>
+</div>
+</div>
+
+
+
+<hr>
+
 
 <a name="/mhd"></a>
 <div class="row">
