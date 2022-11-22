@@ -62,3 +62,6 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.0)
+
+BUNDLED WITH
+   2.2.27
