@@ -2,7 +2,7 @@
 layout:     page
 title:      
 permalink:  /
----
+--- 
 <h1>About</h1>
 I am a final year Master's student in Computer Science at Georgia Tech. I am working on 3D implicit representations with [Prof. Zsolt Kira][zsolt]. Previously, I was a Machine Learning Scientist at [The Wadhwani Institute for Artificial Intelligence][wiai], and before that, I worked closely with [Prof. Vinay Namboodiri][vinay] at [IIT Kanpur][iitk] on multimodal problems.
 
